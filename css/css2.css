@@ -1,0 +1,155 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, ::before {
+    box-sizing: inherit;
+}
+
+.backgroundMain {
+    background-color: aquamarine;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.navigation {
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 35px / 24px;
+    box-shadow: inset 4px 5px 4px 0px #373835;
+    
+
+}
+
+.navigationItem {
+    display: inline;
+    background-color: #89f321;
+    border: 1px blue outset;
+    border-radius: 40%;
+    padding: 10px;
+    box-shadow: 4px 5px 4px 0px #373835, inset 4px 5px 4px 0px #373835;
+    ;
+    font-weight: 1000;
+}
+
+.navigationItem:hover {
+    background-color: #41dba9;
+}
+
+.header {
+    color: #18588b;
+    background-color: #41dba9;
+    outline: #092b20 5px solid;
+    outline-offset: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 4px 5px 4px 0px #373835;
+    text-shadow: 2px 4px 6px #679f09;
+    font-family: 'Berkshire Swash', cursive;
+    
+
+}
+
+.paragraph {
+    padding: 10px;
+    font-family: sans-serif;
+    margin: 1px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.paragraphList {
+    padding: 10px;
+    font-family: sans-serif;
+    margin: 1px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.table {
+    border-spacing: 0;
+    
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.caption {
+    caption-side: bottom;
+    text-align: right;
+    margin: 10px 30px;
+    font-weight: 900;
+}
+
+.tableData {
+    border: 2px solid #7bb7cb;
+    text-align: center;
+    padding: 5px;
+    vertical-align: middle;
+
+}
+
+.tableHeaderRow {
+    border-right-width: 10px;
+    background-color: bisque;
+}
+
+
+.tableRow:nth-child(even) {
+    background-color: #51dfaf;
+}
+
+.tableRow:hover {
+    background-color: #3dac87;
+}
+
+.tableHeaderCol {
+    border-bottom-width: 10px;
+    background-color: bisque;
+}
+
+.tableLeftBottom {
+    border-radius: 0 0 0 20px;
+}
+
+.tableRightBottom {
+    border-radius: 0 0 20px 0;
+}
+
+.tableLeftTop {
+    border-radius: 20px 0 0 0;
+}
+
+.tableRightTop {
+    border-radius: 0 20px 0 0;
+}
+
+.link:link {
+    text-decoration: none;
+}
+
+.link:visited {
+    text-decoration: none;
+    color: rgb(82, 1, 136);
+}
+
+.link:focus {
+    text-decoration: none;
+    color: crimson;
+    outline: none;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.link:active {
+    text-decoration: none;
+    color: aqua;
+}

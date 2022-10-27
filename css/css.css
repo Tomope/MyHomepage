@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, ::before {
+    box-sizing: inherit;
+}
+
+.background{
+    background-color: aquamarine;
+}
+
+.background--dark {
+    background-color: #c1c038;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.navigation {
+    background-color: cadetblue;
+    padding: 5px;
+    border-radius: 35px / 24px;
+    box-shadow: inset 4px 5px 4px 0px #373835;
+    position: sticky;
+    top: 0;
+}
+
+.navigation__button {
+    color: rgb(82, 1, 136);
+}
+
+.navigation__listItem {
+    display: inline;
+    background-color: #89f321;
+    border: 1px blue outset;
+    border-radius: 100%/45%;
+    margin: 0px -2px;
+    padding: 1px 5px;
+    box-shadow: 4px 5px 4px 0px #373835, inset 4px 5px 4px 0px #373835;
+    ;
+    font-weight: 1000;
+}
+
+.navigation__listItem:hover {
+    background-color: #41dba9;
+}
+
+.powody {
+    padding-top: 60px;
+}
+
+.section__h2 {
+    color: #18588b;
+    background-color: #41dba9;
+    outline: #092b20 5px solid;
+    outline-offset: 10px;
+    border-radius: 10px;
+    margin-bottom: 33px;
+    padding: 10px;
+    box-shadow: inset 4px 5px 4px 0px #373835;
+    text-shadow: 2px 4px 6px #679f09;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.header__h1 {
+        color: #18588b;
+        background-color: #41dba9;
+        outline: #092b20 5px solid;
+        outline-offset: 10px;
+        border-radius: 10px;
+        margin-bottom: 33px;
+        padding: 10px;
+        box-shadow: inset 4px 5px 4px 0px #373835;
+        text-shadow: 2px 4px 6px #679f09;
+        font-family: 'Berkshire Swash', cursive;
+    }
+
+.section__paragraph {
+    padding: 10px;
+    font-family: sans-serif;
+    margin: 1px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+
+.section__unorderedList {
+    padding: 10px;
+    font-family: sans-serif;
+    margin: 1px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.navigation__link:link {
+    text-decoration: none;
+}
+
+.navigation__link:visited {
+    text-decoration: none;
+    color: rgb(82, 1, 136);
+}
+
+.navigation__link:focus {
+    text-decoration: none;
+    color: crimson;
+    outline: none;
+}
+
+.navigation__link:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.navigation__link:active {
+    text-decoration: none;
+    color: aqua;
+}
